@@ -1,0 +1,13 @@
+﻿    .image-viewer {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+       max-height: 400px; /* Adjust height as needed */
+       overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+    .image-viewer img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+    }
